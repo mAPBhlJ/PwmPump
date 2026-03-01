@@ -49,7 +49,7 @@ Below there's some additional documentation used for troubleshooting/explanation
 
 Using the 'Mini superseal' connector, make sure the connections are as following:
 
-[Grundfoss connections](files/Grundfos-connections.png)
+![Grundfoss connections](files/Grundfos-connections.png)
 
 ## Settings
 
@@ -57,7 +57,7 @@ For PWM operation, the first LED should be red and the second LED should be yell
 
 If the first/second LED are incorrect, refer to the steps below to change the mode of the UPM3.
 
-[Grundfoss settings](files/Grundfos-settings.png)
+![Grundfoss settings](files/Grundfos-settings.png)
 
 ## PWM Signal
 
