@@ -329,593 +329,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RotaryEncoder_Switch"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -2.794)
-					(mid -3.0988 -0.0635)
-					(end -0.381 2.667)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.429 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 -1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3.5mm"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/5/e/4/d/ASS_4091_CO.pdf"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Screw terminal"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "CONN-08399"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ScrewTerminal_1x02_P3.5mm_Horizontal_Black_1_1"
-				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 1.6002) (xy 0.3302 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -0.9398) (xy 0.3302 -1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 1.778) (xy 0.508 0.9398)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -0.762) (xy 0.508 -1.6002)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.27)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
 			(pin_names
 				(offset 1.016)
@@ -1158,335 +571,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-LED:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "LED-"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-Resistor:220_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "220"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
-				(at 0 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "RES-15348"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "220_0402_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "220_0402_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2239,53 +1323,67 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 232.41 13.97)
-		(end 283.21 43.18)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7ed47859-c315-4124-b1d3-e9be5e6b080f)
-	)
-	(text "Optional:"
-		(exclude_from_sim no)
-		(at 237.236 15.748 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a84be706-9687-422e-8ef8-8d47832164aa")
-	)
 	(junction
-		(at 191.77 109.22)
+		(at 191.77 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a1f8f4a-8c30-4d92-a97d-a7c87be2d4da")
 	)
 	(junction
-		(at 118.11 85.09)
+		(at 127 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4010d17-fe2c-4498-b92a-7acd11725bd9")
+		(uuid "e1d97fd4-a26b-46ca-b3cf-372c26da378d")
+	)
+	(junction
+		(at 129.54 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd87f414-5505-44d4-8231-ddda2339a174")
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 149.86 87.63)
+			(xy 115.57 107.95) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "075ac544-2a1e-43a1-a4aa-5940a1019ca3")
+		(uuid "00094e30-397c-41ce-925b-0199230edc22")
 	)
 	(wire
 		(pts
-			(xy 203.2 99.06) (xy 205.74 99.06)
+			(xy 153.67 73.66) (xy 153.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdc69f2-792b-4a25-a68f-036cc280c5cb")
+	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bca3b32-1dc0-4057-8762-6ccfbb9851c0")
+	)
+	(wire
+		(pts
+			(xy 130.81 87.63) (xy 129.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec0f996-d256-48f1-891a-7d4cea89fdb1")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 205.74 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +1393,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 205.74 93.98)
+			(xy 190.5 95.25) (xy 205.74 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2305,17 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315eb87f-0700-400e-8d5e-02a94edf38a8")
-	)
-	(wire
-		(pts
-			(xy 190.5 106.68) (xy 191.77 106.68)
+			(xy 190.5 107.95) (xy 191.77 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2325,47 +1413,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 120.65 100.33)
+			(xy 191.77 73.66) (xy 191.77 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "356475af-fa36-4aa9-a4c3-fcbdb3e33927")
+		(uuid "3b17a8aa-3de5-403a-af98-ee0c940fd654")
 	)
 	(wire
 		(pts
-			(xy 245.11 26.67) (xy 248.92 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f25c5d-ca53-4ffa-b378-8be5b02d6a7e")
-	)
-	(wire
-		(pts
-			(xy 118.11 113.03) (xy 118.11 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4387c01e-c8f2-4f90-b7c3-ee8b5dd7c6c1")
-	)
-	(wire
-		(pts
-			(xy 149.86 96.52) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478cb1f4-855e-4dfb-a9d6-05e116d7a83f")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 191.77 88.9)
+			(xy 190.5 90.17) (xy 191.77 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2375,27 +1433,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 110.49) (xy 119.38 110.49)
+			(xy 151.13 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49fd4684-b510-40ce-983b-4b8cdc1e479b")
+		(uuid "4d9d687b-c023-4e94-b9e3-045927e43946")
 	)
 	(wire
 		(pts
-			(xy 191.77 88.9) (xy 191.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d5503bb-8d4d-4e50-9b2b-ec79fd18c475")
-	)
-	(wire
-		(pts
-			(xy 190.5 109.22) (xy 191.77 109.22)
+			(xy 190.5 110.49) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2405,23 +1453,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 105.41) (xy 120.65 105.41)
+			(xy 127 82.55) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5db3fb9d-eba5-4a88-8dbc-f500c4e94c2b")
+		(uuid "66784dbb-5dfe-4149-819c-c84592bd9930")
 	)
 	(wire
 		(pts
-			(xy 264.16 31.75) (xy 269.24 31.75)
+			(xy 129.54 97.79) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64509738-c733-4ccf-bebb-f09eac01f814")
+		(uuid "68652967-7dae-40ae-baf6-cf488ca43f43")
 	)
 	(wire
 		(pts
@@ -2445,73 +1493,33 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 120.65 102.87)
+			(xy 115.57 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d7d714e-7089-435f-be87-e0e115ff01cc")
+		(uuid "77a15bc2-2d27-40c2-babd-ee128764ae27")
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 154.94 93.98)
+			(xy 151.13 110.49) (xy 151.13 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "785c428b-29c0-46d5-9d7e-ed875c311ff5")
+		(uuid "7d64953a-01b5-487e-9bf1-fbb6d30e8587")
 	)
 	(wire
 		(pts
-			(xy 245.11 31.75) (xy 248.92 31.75)
+			(xy 148.59 107.95) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79451bd3-9326-4dee-9757-561471cd081b")
-	)
-	(wire
-		(pts
-			(xy 149.86 87.63) (xy 149.86 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dfb9de6-c2a9-4ca3-98b4-2327bbb12e73")
-	)
-	(wire
-		(pts
-			(xy 147.32 95.25) (xy 147.32 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea1c781-a644-41a2-936a-f1cf357759b9")
-	)
-	(wire
-		(pts
-			(xy 153.67 88.9) (xy 153.67 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835bd91f-b685-4c99-9841-dc16c22fa61e")
-	)
-	(wire
-		(pts
-			(xy 149.86 96.52) (xy 149.86 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88546226-1f86-43ed-960c-8c7453199590")
+		(uuid "8d1bd05e-029e-4ff1-bd51-2c9e72979103")
 	)
 	(wire
 		(pts
@@ -2525,13 +1533,23 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 26.67) (xy 264.16 26.67)
+			(xy 130.81 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0c1e8aa-20c8-4fe1-8cce-356e41468201")
+		(uuid "a2f2022a-844a-4e55-8f34-fc053b677920")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5877a6f-978c-4fc2-b882-5d902801df7b")
 	)
 	(wire
 		(pts
@@ -2545,27 +1563,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 133.35 95.25)
+			(xy 115.57 95.25) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a455d5-65f0-4499-9cd5-015da481ad6a")
+		(uuid "b0d9ea5a-97e3-486f-84ac-75daa1b20994")
 	)
 	(wire
 		(pts
-			(xy 139.7 95.25) (xy 138.43 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b152aaaa-4120-4e76-98f4-bbaad1f722cc")
-	)
-	(wire
-		(pts
-			(xy 191.77 109.22) (xy 191.77 120.65)
+			(xy 191.77 110.49) (xy 191.77 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2575,17 +1583,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 118.11 113.03)
+			(xy 129.54 87.63) (xy 129.54 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b95ef36b-e351-4531-bd5f-3d512e535bbe")
+		(uuid "b88a364c-4b42-4cf0-adb1-9b870c89d4e1")
 	)
 	(wire
 		(pts
-			(xy 154.94 88.9) (xy 153.67 88.9)
+			(xy 154.94 90.17) (xy 153.67 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2595,37 +1603,27 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 26.67) (xy 269.24 21.59)
+			(xy 124.46 92.71) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbea5d6e-1150-4f16-80cd-335a6eba0ae9")
+		(uuid "be46791a-8e38-47bb-b0d2-da47e913265e")
 	)
 	(wire
 		(pts
-			(xy 149.86 97.79) (xy 115.57 97.79)
+			(xy 124.46 85.09) (xy 130.81 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d824df26-b5b5-4212-b208-b9bfdde03cff")
+		(uuid "e4aa378d-4a3b-4d45-aedb-30dc5323b4d9")
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3580cff-ba7f-4a85-812a-9e9f182529f1")
-	)
-	(wire
-		(pts
-			(xy 190.5 96.52) (xy 205.74 96.52)
+			(xy 190.5 97.79) (xy 205.74 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2635,37 +1633,37 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 29.21) (xy 247.65 34.29)
+			(xy 115.57 110.49) (xy 151.13 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e76b0165-0e7b-4a3d-8d16-ec4e4dce74f4")
+		(uuid "e7818a28-b816-4c82-b5ae-b159345790be")
 	)
 	(wire
 		(pts
-			(xy 248.92 29.21) (xy 247.65 29.21)
+			(xy 129.54 97.79) (xy 129.54 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8428717-7edf-4762-985f-3d1a8bddc547")
+		(uuid "e79aaa7b-31ff-4452-8687-92aa38f7e3d2")
 	)
 	(wire
 		(pts
-			(xy 115.57 90.17) (xy 120.65 90.17)
+			(xy 127 82.55) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0e0a225-2437-4122-9a7a-fd3556eaac51")
+		(uuid "eec2f06d-95c3-4600-8090-58ef2394ddca")
 	)
 	(wire
 		(pts
-			(xy 203.2 99.06) (xy 203.2 120.65)
+			(xy 203.2 100.33) (xy 203.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2675,255 +1673,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 191.77 109.22)
+			(xy 191.77 107.95) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fea353ef-5a8a-489b-951f-7da76e73065f")
-	)
-	(global_label "EC11_B"
-		(shape input)
-		(at 245.11 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d5ba0de-ed36-4db7-ae12-092bb75b1e82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.0492 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EC11_A"
-		(shape input)
-		(at 245.11 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27db37c6-b78b-4d09-9819-eead5f553994")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.2306 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EC11_B"
-		(shape input)
-		(at 120.65 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4408f3e3-40d4-454a-9519-dd69394bb930")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7108 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OLED_SCL"
-		(shape input)
-		(at 120.65 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "447cbb34-9cdc-4e64-81d6-069bb699a64d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.888 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OLED_SDA"
-		(shape input)
-		(at 120.65 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "671f9773-a765-4d94-ad3c-247abb30f88c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.9485 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EC11_BTN"
-		(shape input)
-		(at 120.65 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79c86d1c-5d69-4fb7-a0dc-84a8c84f94a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0089 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EC11_A"
-		(shape input)
-		(at 120.65 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c21526f1-64a2-42ce-bb0a-64817578e813")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.5294 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EC11_BTN"
-		(shape input)
-		(at 269.24 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff77a50b-8028-45ca-b731-d77ebf67e2e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.5989 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 247.65 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f1e753a-0d0a-45bd-b9a7-e81f46716d82")
-		(property "Reference" "#PWR08"
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "892c23c9-e331-4a8b-b1d9-d09ddc452723")
-		)
-		(instances
-			(project ""
-				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2986,6 +1742,88 @@
 			(project "PwmPump"
 				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black")
+		(at 135.89 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20b53e66-94b0-430f-b89a-fd8cbb311de5")
+		(property "Reference" "J3"
+			(at 138.43 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.5mm"
+			(at 138.43 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/b/1/8/d/9/OSTTEXX0104.pdf"
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Screw terminal"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-08288"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f97b8dd8-5c48-4ecb-ae1d-14d670281653")
+		)
+		(pin "2"
+			(uuid "b5f81a8b-bfaa-46ae-86df-2ef1fa85a427")
+		)
+		(pin "3"
+			(uuid "ff6b136e-6854-4207-a1b2-00d01bd098df")
+		)
+		(instances
+			(project "PwmPump"
+				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3058,8 +1896,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "519c2eba-b33e-4802-9d9d-a582a0afbe36")
+		(property "Reference" "#PWR07"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de7792d0-998d-47d2-ad01-3c8d4ac56533")
+		)
+		(instances
+			(project "PwmPump"
+				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black")
-		(at 210.82 96.52 0)
+		(at 210.82 97.79 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3068,7 +1972,7 @@
 		(dnp no)
 		(uuid "58341a55-b2ec-4adb-958b-e3a5ceef3602")
 		(property "Reference" "J1"
-			(at 213.36 97.7901 0)
+			(at 213.36 99.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +1981,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 213.36 95.2501 0)
+			(at 213.36 96.5201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +1990,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
-			(at 210.82 86.36 0)
+			(at 210.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,7 +1999,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/b/1/8/d/9/OSTTEXX0104.pdf"
-			(at 210.82 83.82 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +2008,7 @@
 			)
 		)
 		(property "Description" "Screw terminal"
-			(at 210.82 81.28 0)
+			(at 210.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +2017,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-08288"
-			(at 210.82 88.9 0)
+			(at 210.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,8 +2044,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e605fba-a1c1-4dce-952b-29e1dee47a0d")
+		(property "Reference" "#PWR08"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "382e5260-65b1-4a75-b637-39a01f570c2a")
+		)
+		(instances
+			(project "PwmPump"
+				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BOB-12009:BOB-12009")
-		(at 172.72 96.52 0)
+		(at 172.72 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3150,7 +2120,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fcb0615-5a82-4f57-a3a7-2f2378f8142b")
 		(property "Reference" "U2"
-			(at 172.72 81.28 0)
+			(at 172.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +2128,7 @@
 			)
 		)
 		(property "Value" "BOB-12009"
-			(at 172.72 83.82 0)
+			(at 172.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +2136,7 @@
 			)
 		)
 		(property "Footprint" "Libraries:CONV_BOB-12009"
-			(at 172.72 96.52 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +2146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 96.52 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +2155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 96.52 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +2164,7 @@
 			)
 		)
 		(property "PARTREV" "01"
-			(at 172.72 96.52 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +2174,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 172.72 96.52 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +2184,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
-			(at 172.72 96.52 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +2194,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SparkFun Electronics"
-			(at 172.72 96.52 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,226 +2315,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 256.54 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a19c99f-36c3-49b9-8ffc-c0c03f4ab72e")
-		(property "Reference" "SW1"
-			(at 256.54 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 256.54 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 25.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 22.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 256.54 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B"
-			(uuid "16745d7b-3218-48eb-a577-d9aa05c8f743")
-		)
-		(pin "C"
-			(uuid "d977108f-ece2-4a22-9c8d-fc24e3432fd4")
-		)
-		(pin "S2"
-			(uuid "8249a9f9-cc46-45a7-a6f4-d97836245c55")
-		)
-		(pin "S1"
-			(uuid "3ffa0773-ebf8-4d6c-adf8-206511c483e9")
-		)
-		(pin "A"
-			(uuid "ff030320-eafa-4407-a159-1163fa8736f1")
-		)
-		(instances
-			(project ""
-				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-LED:LED")
-		(at 142.24 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ad17862-2fc5-45b9-a9a5-220ce45cf161")
-		(property "Reference" "D1"
-			(at 142.1765 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 142.1765 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 142.24 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "LED-"
-			(at 142.24 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "358bc109-9ff6-4201-93d3-afcee7f3c8ae")
-		)
-		(pin "1"
-			(uuid "1166bf8d-c2df-4c2d-9c2e-8fc2b963cb97")
-		)
-		(instances
-			(project ""
-				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2fff1d1-9555-4103-b22d-f856204cfedd")
-		(property "Reference" "#PWR07"
-			(at 147.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e969c6e-0ec5-4b9b-9616-8e0247102fc4")
-		)
-		(instances
-			(project ""
-				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RF_Module:WEMOS_C3_mini")
 		(at 105.41 97.79 0)
 		(unit 1)
@@ -3677,8 +2427,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black")
-		(at 124.46 111.76 0)
+		(lib_id "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black")
+		(at 135.89 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3687,7 +2437,7 @@
 		(fields_autoplaced yes)
 		(uuid "b975886d-bb9f-4961-8818-8f26bf271a49")
 		(property "Reference" "J2"
-			(at 127 110.4899 0)
+			(at 138.43 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +2446,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 127 113.0299 0)
+			(at 138.43 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,8 +2454,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
-			(at 124.46 120.65 0)
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
+			(at 135.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,8 +2463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/5/e/4/d/ASS_4091_CO.pdf"
-			(at 124.46 123.19 0)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/b/1/8/d/9/OSTTEXX0104.pdf"
+			(at 135.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +2473,7 @@
 			)
 		)
 		(property "Description" "Screw terminal"
-			(at 124.46 125.73 0)
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,8 +2481,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-08399"
-			(at 124.46 118.11 0)
+		(property "PROD_ID" "CONN-08288"
+			(at 135.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,6 +2495,9 @@
 		)
 		(pin "2"
 			(uuid "43a645fb-9f52-4287-95bd-64383a358698")
+		)
+		(pin "3"
+			(uuid "7d172c9a-4bea-4552-9395-f2e38d55e8bb")
 		)
 		(instances
 			(project ""
@@ -3889,72 +2642,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 269.24 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d246c4b9-1255-4ca7-b384-901772884e18")
-		(property "Reference" "#PWR09"
-			(at 269.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 269.24 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "922aa3f0-95f8-4514-879c-92c5a058827d")
-		)
-		(instances
-			(project ""
-				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 118.11 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4014,83 +2701,6 @@
 			(project ""
 				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:220_0402")
-		(at 135.89 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d67c3388-d70e-4396-ae8d-5d03b4b74b6f")
-		(property "Reference" "R1"
-			(at 135.89 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 135.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 135.89 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "RES-15348"
-			(at 135.89 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81e1aaa0-29c5-41b7-a297-4748832df069")
-		)
-		(pin "2"
-			(uuid "bc4866e4-04ad-4d48-ac19-16a5c4c94e8a")
-		)
-		(instances
-			(project ""
-				(path "/a998c15c-b99f-4d42-935b-1fb7a73d60eb"
-					(reference "R1")
 					(unit 1)
 				)
 			)
